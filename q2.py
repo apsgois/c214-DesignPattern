@@ -34,15 +34,20 @@ class Contador(Subject):
 
 
 class ContadorObserver(Observer):
+    def __init__(self):
+        self.todas_palavras = 0
+        self.contagem_caracter = 0
+        self.contagem_maiuscula = 0
+
     def update(self, palavras):
         lista_palavras = palavras.split()
-        todas_palavras = len(lista_palavras)
-        contagem_caracter = sum(1 for caracter in lista_palavras if len(caracter) % 2 == 0)
-        contagem_maiuscula = sum(1 for caracter in lista_palavras if caracter[0].isupper())
+        self.todas_palavras = len(lista_palavras)
+        self.contagem_caracter = sum(1 for palavra in lista_palavras if len(palavra) % 2 == 0)
+        self.contagem_maiuscula = sum(1 for palavra in lista_palavras if palavra[0].isupper())
 
-        print("Contagem de todas as palavras:", todas_palavras)
-        print("Contagem de palavras com quantidade par de caracteres:", contagem_caracter)
-        print("Contagem de palavras começadas com maiúsculas:", contagem_maiuscula)
+        print("Contagem de todas as palavras:", self.todas_palavras)
+        print("Contagem de palavras com quantidade par de caracteres:", self.contagem_caracter)
+        print("Contagem de palavras começadas com maiúsculas:", self.contagem_maiuscula)
 
 
 
