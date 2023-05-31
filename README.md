@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>Projeto designPatter</title>
-</head>
+
 <body>
+  <title>Projeto designPatter</title>
   <h1>Realizado por:/h1>
   <p>Ana Paula Serafim de Góis</p>
   <p>Pedro Henrique Ribeiro</p>
