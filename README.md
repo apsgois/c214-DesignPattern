@@ -2,6 +2,9 @@
 <html>
 
 <body>
+  <h2>Design Patterns</h2>
+  <p>Exercício prático de C214 sobre Design Patterns (Strategy e Observer)</p>
+  
   <h2>Realizado por:</h2>
   <p>Ana Paula Serafim de Góis</p>
   <p>Pedro Henrique Ribeiro</p>
