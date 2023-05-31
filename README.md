@@ -2,8 +2,7 @@
 <html>
 
 <body>
-  <title>Projeto designPatter</title>
-  <h1>Realizado por:/h1>
+  <h2>Realizado por:</h2>
   <p>Ana Paula Serafim de Góis</p>
   <p>Pedro Henrique Ribeiro</p>
 
